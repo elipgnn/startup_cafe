@@ -6,21 +6,8 @@
     var INDIRIZZO = 'Via San Bernardino 67/a, di fronte alla Biblioteca Tiraboschi';
     var MAPS = 'https://www.google.com/maps/dir/?api=1&destination=Start+Up+Caf%C3%A8%2C+Via+San+Bernardino+67%2Fa%2C+24122+Bergamo';
     var TEL = 'tel:+393474243702';
-
+ 
     var EVENTI = [
-        {
-            slug: 'spritz-party-national-candy-day',
-            titolo: 'Spritz Party · National Candy Day',
-            data: '2026-11-04',
-            dataEstesa: 'Mercoledì 4 novembre 2026',
-            inizio: '18:30',
-            fine: '22:30',
-            testoBreve: 'Caramelle gratis per tutti, Spritz a 3,50 €, DJ set e beer pong gratuito.',
-            testoLungo: 'Mercoledì 4 novembre lo Spritz Party festeggia il National Candy Day. Caramelle gratis per tutti, Spritz a 3,50 €, DJ set per tutta la serata e beer pong gratuito: in palio una bottiglia di Prosecco per chi vince. Dalle 18:30 alle 22:30 da Start Up Cafè, in Via San Bernardino 67/a, di fronte alla Biblioteca Tiraboschi a Bergamo.',
-            locandina: '/images/eventi/spritz-party-2026-11-04.jpg',
-            publishFrom: '2026-11-02',
-            hideAfter: '2026-11-05'
-        },
         {
             slug: 'spritz-party-singles-day',
             titolo: "Spritz Party · Singles' Day",
@@ -36,51 +23,76 @@
             hideAfter: '2026-11-12'
         },
         {
-            slug: 'spritz-party-national-princess-day',
-            titolo: 'Spritz Party · Principesse per una sera',
+            slug: 'spritz-party-classic-night-music',
+            titolo: 'Spritz Party · CLASSIC NIGHT MUSIC',
             data: '2026-11-18',
             dataEstesa: 'Mercoledì 18 novembre 2026',
             inizio: '18:30',
             fine: '22:30',
-            // TODO: aggiornare il testo quando è deciso il regalo per le ragazze.
-            testoBreve: 'National Princess Day, un regalo per ogni ragazza che partecipa. Spritz a 3,50 €.',
-            testoLungo: 'Mercoledì 18 novembre, National Princess Day: principesse per una sera! Allo Spritz Party un regalo per ogni ragazza che partecipa, Spritz a 3,50 €, DJ set per tutta la serata e beer pong gratuito con una bottiglia di Prosecco in palio per chi vince. Dalle 18:30 alle 22:30 da Start Up Cafè, in Via San Bernardino 67/a, di fronte alla Biblioteca Tiraboschi a Bergamo.',
+            testoBreve: 'Classic Night Music. Spritz a 3,50 €, DJ set e beer pong gratuito.',
+            testoLungo: 'Mercoledì 18 novembre, Classic Night Music: una serata di buona musica allo Spritz Party. Spritz a 3,50 €, DJ set per tutta la serata e beer pong gratuito con una bottiglia di Prosecco in palio per chi vince. Dalle 18:30 alle 22:30 da Start Up Cafè, in Via San Bernardino 67/a, di fronte alla Biblioteca Tiraboschi a Bergamo.',
             locandina: '/images/eventi/spritz-party-2026-11-18.jpg',
             publishFrom: '2026-11-16',
             hideAfter: '2026-11-19'
         },
         {
-            slug: 'spritz-party-national-jukebox-day',
-            titolo: 'Spritz Party · National Jukebox Day',
+            slug: 'spritz-party-karaoke-music-party',
+            titolo: 'Spritz Party · KARAOKE MUSIC PARTY',
             data: '2026-11-25',
             dataEstesa: 'Mercoledì 25 novembre 2026',
             inizio: '18:30',
             fine: '22:30',
-            testoBreve: 'La musica la scegli tu. Spritz a 3,50 €, DJ set e beer pong gratuito.',
-            testoLungo: 'Mercoledì 25 novembre, National Jukebox Day: allo Spritz Party la musica la scegli tu, ognuno può scegliere la sua canzone. Spritz a 3,50 €, DJ set per tutta la serata e beer pong gratuito con una bottiglia di Prosecco in palio per chi vince. Dalle 18:30 alle 22:30 da Start Up Cafè, in Via San Bernardino 67/a, di fronte alla Biblioteca Tiraboschi a Bergamo.',
+            testoBreve: 'Karaoke Music Party. Spritz a 3,50 €, DJ set e beer pong gratuito.',
+            testoLungo: 'Mercoledì 25 novembre, Karaoke Music Party: allo Spritz Party si canta! Spritz a 3,50 €, DJ set per tutta la serata e beer pong gratuito con una bottiglia di Prosecco in palio per chi vince. Dalle 18:30 alle 22:30 da Start Up Cafè, in Via San Bernardino 67/a, di fronte alla Biblioteca Tiraboschi a Bergamo.',
             locandina: '/images/eventi/spritz-party-2026-11-25.jpg',
             publishFrom: '2026-11-23',
             hideAfter: '2026-11-26'
+        },
+        {
+            slug: 'spritz-party-classic-night-music-2-dicembre',
+            titolo: 'Spritz Party · CLASSIC NIGHT MUSIC',
+            data: '2026-12-02',
+            dataEstesa: 'Mercoledì 2 dicembre 2026',
+            inizio: '18:30',
+            fine: '22:30',
+            testoBreve: 'Classic Night Music. Spritz a 3,50 €, DJ set e beer pong gratuito.',
+            testoLungo: 'Mercoledì 2 dicembre, Classic Night Music: una serata di buona musica allo Spritz Party. Spritz a 3,50 €, DJ set per tutta la serata e beer pong gratuito con una bottiglia di Prosecco in palio per chi vince. Dalle 18:30 alle 22:30 da Start Up Cafè, in Via San Bernardino 67/a, di fronte alla Biblioteca Tiraboschi a Bergamo.',
+            locandina: '/images/eventi/spritz-party-2026-12-02.jpg',
+            publishFrom: '2026-11-30',
+            hideAfter: '2026-12-03'
+        },
+        {
+            slug: 'spritz-party-music-anni-2000',
+            titolo: 'Spritz Party · MUSIC ANNI 2000',
+            data: '2026-12-09',
+            dataEstesa: 'Mercoledì 9 dicembre 2026',
+            inizio: '18:30',
+            fine: '22:30',
+            testoBreve: 'Music Anni 2000. Spritz a 3,50 €, DJ set e beer pong gratuito.',
+            testoLungo: 'Mercoledì 9 dicembre, Music Anni 2000: allo Spritz Party i successi degli anni 2000. Spritz a 3,50 €, DJ set per tutta la serata e beer pong gratuito con una bottiglia di Prosecco in palio per chi vince. Dalle 18:30 alle 22:30 da Start Up Cafè, in Via San Bernardino 67/a, di fronte alla Biblioteca Tiraboschi a Bergamo.',
+            locandina: '/images/eventi/spritz-party-2026-12-09.jpg',
+            publishFrom: '2026-12-07',
+            hideAfter: '2026-12-10'
         }
     ];
-
+ 
     function oggiRoma() {
         var anteprima = new URLSearchParams(location.search).get('anteprima');
         if (anteprima && /^\d{4}-\d{2}-\d{2}$/.test(anteprima)) return anteprima;
         // en-CA restituisce il formato AAAA-MM-GG
         return new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Rome', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
     }
-
+ 
     function eventiVisibili() {
         var oggi = oggiRoma();
         return EVENTI.filter(function (e) { return e.publishFrom <= oggi && oggi < e.hideAfter; })
             .sort(function (a, b) { return a.data < b.data ? -1 : 1; });
     }
-
+ 
     function esc(t) {
         return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
     }
-
+ 
     function giornoMese(data) {
         var d = new Date(data + 'T12:00:00Z');
         return {
@@ -88,11 +100,11 @@
             mese: d.toLocaleDateString('it-IT', { month: 'short', timeZone: 'UTC' }).replace('.', '')
         };
     }
-
+ 
     function altLocandina(e) {
         return 'Locandina ' + e.titolo.replace(' · ', ': ') + ', ' + e.dataEstesa.toLowerCase() + ' da Start Up Cafè a Bergamo';
     }
-
+ 
     function cardEvento(e, primo) {
         var gm = giornoMese(e.data);
         return '' +
@@ -135,7 +147,7 @@
             '</div>' +
             '</article>';
     }
-
+ 
     function jsonLdEvento(e, immagine) {
         return {
             '@context': 'https://schema.org',
@@ -163,7 +175,7 @@
             organizer: { '@type': 'Organization', name: 'Start Up Cafè', url: BASE + '/' }
         };
     }
-
+ 
     // Il JSON-LD usa la locandina solo se esiste davvero, altrimenti l'immagine generica del locale
     function aggiungiJsonLd(eventi) {
         Promise.all(eventi.map(function (e) {
@@ -180,7 +192,7 @@
             document.head.appendChild(s);
         });
     }
-
+ 
     function paginaEventi(lista) {
         var visibili = eventiVisibili();
         var fisso = document.getElementById('spritz-fisso');
@@ -194,7 +206,7 @@
         });
         aggiungiJsonLd(visibili);
     }
-
+ 
     function bannerHome(box) {
         var e = eventiVisibili()[0];
         if (!e) return;
@@ -202,14 +214,14 @@
             ' <a href="/Cosa-fare-a-bergamo/#' + e.slug + '" class="underline font-bold whitespace-nowrap">Scopri la serata</a>';
         box.classList.remove('hidden');
     }
-
+ 
     function init() {
         var lista = document.getElementById('lista-eventi');
         if (lista) paginaEventi(lista);
         var box = document.getElementById('prossimo-evento');
         if (box) bannerHome(box);
     }
-
+ 
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
     else init();
 })();
